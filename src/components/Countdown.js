@@ -61,8 +61,8 @@ const Countdown = () => {
     }, [timer, isPause]);
 
     return (
-        <div className="w-[100vw] h-[100vh] bg-[#1c222f]">
-            <div className="flex flex-col w-1/3 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
+        <div className="w-[100vw] h-[100vh] bg-[#1c222f] ">
+            <div className="flex flex-col lg:w-1/3 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
                 <label htmlFor="minute" className="text-2xl mb-3 text-[#2b768d]">
                     Enter Minutes
                 </label>
